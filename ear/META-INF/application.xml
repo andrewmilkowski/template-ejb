@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" id="Application_ID" version="5">
+<display-name>ejb-secure-ear</display-name>
+  <module>
+    <ejb>ejb-secure-ejb.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>ejb-secure-web.war</web-uri>
+      <context-root>ejb-secure-web</context-root>
+    </web>
+  </module>
+</application>
